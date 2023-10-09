@@ -60,12 +60,12 @@
 ## Файл HEAD
 Файл HEAD (англ. «голова», «головной») — один из служебных файлов папки .git. Он указывает на коммит, который сделан последним (то есть на самый новый).  
 
-##Статусы файлов в Git
+## Статусы файлов в Git
 
 ```mermaid
 graph LR;
   untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
+  staged    -- "git commit"     --> tracked/comitted;
 ``` 
 
 
