@@ -72,7 +72,7 @@ graph LR;
 
 ### Как исправить последний коммит
 
- git commit --amend  --no-edit 
+ git commit --amend  --no-edit   
 	 --amend работает только с последним коммитом (HEAD). no-edit - оставить комментарий к коммиту без изменений  
 
 ### Как откатиться назад, если «всё сломалось»  
@@ -83,7 +83,7 @@ git restore <file>
 
 #### Откатить изменения которые staging (после git add) 
 
- git restore --staged <file> - отменить git add на файл
+ git restore --staged <file> - отменить git add на файл  
  git restore --staged - отменить git add на всю папку
 
 #### Откатить коммит 
